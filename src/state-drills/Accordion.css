@@ -1,0 +1,17 @@
+ .accordion-title {
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+.accordion-button {
+  background: darkcyan;
+  color: white;
+  font-weight: bold;
+  border-radius: 7px;
+  font-size: 18px;
+}
+
+.accordion-content {
+  padding-left: 20px;
+  font-size: 18px;
+}

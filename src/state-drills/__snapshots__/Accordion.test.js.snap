@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Component only opens one section at a time 1`] = `
+<ul>
+  <li
+    className="accordion-title"
+    key="Section 1"
+  >
+    <button
+      className="accordion-button"
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    className="accordion-title"
+    key="Section 2"
+  >
+    <button
+      className="accordion-button"
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    className="accordion-title"
+    key="Section 3"
+  >
+    <button
+      className="accordion-button"
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+    <p
+      className="accordion-content"
+    >
+      Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?
+    </p>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component opens any clicked section 1`] = `
+<ul>
+  <li
+    className="accordion-title"
+    key="Section 1"
+  >
+    <button
+      className="accordion-button"
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    className="accordion-title"
+    key="Section 2"
+  >
+    <button
+      className="accordion-button"
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+    <p
+      className="accordion-content"
+    >
+      Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+    </p>
+  </li>
+  <li
+    className="accordion-title"
+    key="Section 3"
+  >
+    <button
+      className="accordion-button"
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component renders empty given no sections 1`] = `<ul />`;
+
+exports[`Accordion Component renders the no sections by default 1`] = `
+<ul>
+  <li
+    className="accordion-title"
+    key="Section 1"
+  >
+    <button
+      className="accordion-button"
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    className="accordion-title"
+    key="Section 2"
+  >
+    <button
+      className="accordion-button"
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    className="accordion-title"
+    key="Section 3"
+  >
+    <button
+      className="accordion-button"
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
